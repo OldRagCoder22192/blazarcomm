@@ -1,4 +1,24 @@
 Rails.application.routes.draw do
+  root 'pages#home'
+  get '/about' => 'pages#about'
+  get '/billinginvoicing' => 'pages#billinginvoicing'
+  get '/blog' => 'pages#blog'
+  get '/directmailmarketing' => 'pages#directmailmarketing'
+  get '/flexdocs' => 'pages#flexdocs'
+  get '/flexmail' => 'pages#flexmail'
+  get '/flexstream' => 'pages#flexstream'
+  get '/foldersinserters' => 'pages#foldersinserters'
+  get '/logisticstracking' => 'pages#logisticstracking'
+  get '/mail4charity' => 'pages#mail4charity'
+  get '/mailmeters' => 'pages#mailmeters'
+  get '/openersjoggers' => 'pages#openersjoggers'
+  get '/post1' => 'pages#post1'
+  get '/post2' => 'pages#post2'
+  get '/post3' => 'pages#post3'
+  get '/postageaccounting' => 'pages#postageaccounting'
+  get '/shredders' => 'pages#shredders'
+  get '/uaa' => 'pages#uaa'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
